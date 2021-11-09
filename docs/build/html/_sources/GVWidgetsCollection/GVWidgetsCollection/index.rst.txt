@@ -1,0 +1,16 @@
+:py:mod:`GVWidgetsCollection`
+=============================
+
+.. py:module:: GVWidgetsCollection
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   cards_widget/index.rst
+   loading_widget/index.rst
+
+

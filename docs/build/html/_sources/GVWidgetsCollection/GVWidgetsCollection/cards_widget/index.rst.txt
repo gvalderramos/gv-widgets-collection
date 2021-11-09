@@ -1,0 +1,17 @@
+:py:mod:`GVWidgetsCollection.cards_widget`
+==========================================
+
+.. py:module:: GVWidgetsCollection.cards_widget
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   card/index.rst
+   card_list/index.rst
+   flow_layout/index.rst
+
+

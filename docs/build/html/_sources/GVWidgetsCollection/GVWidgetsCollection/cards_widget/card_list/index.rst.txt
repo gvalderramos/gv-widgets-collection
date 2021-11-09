@@ -1,0 +1,75 @@
+:py:mod:`GVWidgetsCollection.cards_widget.card_list`
+====================================================
+
+.. py:module:: GVWidgetsCollection.cards_widget.card_list
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   GVWidgetsCollection.cards_widget.card_list.CardList
+
+
+
+
+.. py:class:: CardList(parent: Optional[PySide2.QtWidgets.QWidget] = None)
+
+   Bases: :py:obj:`PySide2.QtWidgets.QScrollArea`
+
+   
+   Custom list widget
+
+   Args:
+       parent: The parent widget instance
+
+   .. py:class:: CardContainer(parent: Optional[PySide2.QtWidgets.QWidget] = None)
+
+      Bases: :py:obj:`PySide2.QtWidgets.QWidget`
+
+      
+      Widget to handle all cards instance
+
+      Args:
+          parent: The parent widget instance
+
+      .. py:attribute:: _window_resized
+         
+
+         
+
+
+   .. py:method:: set_cards(self, cards: List[GVWidgetsCollection.cards_widget.card.Card]) -> None
+
+      Set the card list
+
+      Args:
+          cards: The ``Card`` instance list
+
+
+   .. py:method:: add_card(self, card: GVWidgetsCollection.cards_widget.card.Card) -> None
+
+      Add one card instance to the list
+
+      Args:
+          card: The ``Card`` instance
+
+
+   .. py:method:: remove_cards(self) -> None
+
+      Remove all cards from the current list
+
+
+   .. py:method:: resizeEvent(self, event: PySide2.QtGui.QResizeEvent) -> None
+
+      This method is called every time the current window is resized
+
+      Args:
+          event: The ``QResizeEvent`` instance.
+
+
+

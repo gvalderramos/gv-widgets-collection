@@ -1,0 +1,6 @@
+:py:mod:`GVWidgetsCollection.loading_widget`
+============================================
+
+.. py:module:: GVWidgetsCollection.loading_widget
+
+

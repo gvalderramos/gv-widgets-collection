@@ -1,0 +1,30 @@
+:py:mod:`GVWidgetsCollection.cards_widget.card`
+===============================================
+
+.. py:module:: GVWidgetsCollection.cards_widget.card
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   GVWidgetsCollection.cards_widget.card.Card
+
+
+
+
+.. py:class:: Card(parent: Optional[PySide2.QtWidgets.QWidget] = None)
+
+   Bases: :py:obj:`PySide2.QtWidgets.QFrame`
+
+   
+   Simple QFrame card too fill out the qt custom list
+
+   Args:
+       parent: QWidget instance to parent
+
+
